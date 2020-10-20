@@ -16,4 +16,38 @@
    @yield('content')
    {{View::make('footer')}}
 </body>
+<style>
+    .slider-img {
+        height: 400px !important;
+    }
+
+    .slider-text {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .trending-wrapper {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .trending-wrapper .row {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .trending-item {
+        float: left;
+        width: 20%;
+    }
+
+    .trending-img {
+        height: 100px;
+    }
+
+    .detail-img {
+        height: 200px;;
+    }
+</style>
 </html>

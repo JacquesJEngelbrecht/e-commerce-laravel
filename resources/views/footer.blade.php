@@ -11,5 +11,6 @@
         background-color: lightgray;
         color: white;
         text-align: center;
+        margin-top: 40px;
     }
 </style>

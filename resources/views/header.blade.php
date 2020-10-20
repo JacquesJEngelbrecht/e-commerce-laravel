@@ -18,8 +18,8 @@
         <a href="#">Cart(0)</a>
       </li>    
     </ul>
-    <form class="form-inline navbar-form navbar-left">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <form action="/search" class="form-inline navbar-form navbar-left">
+      <input name="query" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
     
