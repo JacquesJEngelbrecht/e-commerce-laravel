@@ -22,7 +22,7 @@ if(Session::has('user')) {
     </ul>
     <ul class="navbar-nav navbar-right">
       <li>
-        <a href="#">Cart({{$cartTotal}})</a>
+        <a href="/cartlist">Cart({{$cartTotal}})</a>
       </li>    
     </ul>
     <form action="/search" class="form-inline navbar-form navbar-left">

@@ -49,5 +49,11 @@
     .detail-img {
         height: 200px;;
     }
+
+    .list-devider {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #000;
+    }
 </style>
 </html>
