@@ -4,9 +4,10 @@
            
            <div class="col-sm-12">
                 <div class="container trending-wrapper">
-                <h3>Result for Products</h3>                
+                <h3>Result for Products</h3>
+                <a class="btn btn-success" href="ordernow">Order Now</a>                
                 @foreach($products as $product)
-                <div class="row searched-item list-devider">
+                <div class="row searched-item list-devider shadow p-3 mb-5 bg-white rounded">
                     <div class="col-sm-3">
                         <a href="detail/{{$product->id}}">
                         <img src="{{$product->gallery}}" class="trending-img" alt="...">
@@ -23,11 +24,13 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <button class="btn btn-warning">Remove from Cart</button>
+                    <a href="/removecart/{{$product->cart_id}}" class="btn btn-warning">Remove from Cart</a>
                     </div>
                 </div>    
                 @endforeach  
+                <a class="btn btn-success" href="ordernow">Order Now</a>
                 </div>
+                
            </div>
            
    </div>
